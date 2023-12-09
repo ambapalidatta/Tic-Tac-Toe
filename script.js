@@ -58,7 +58,7 @@ const disableBoxes = () => {
     }
 }
 
-const showDraw = (winner) => {
+const showDraw = () => {
     disableBoxes();
     msg.innerText = "The game is draw";
     msgContainer.classList.remove("hide");
